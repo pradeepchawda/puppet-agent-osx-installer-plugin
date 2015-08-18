@@ -1,0 +1,336 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7E19B3421B7370A200420E15 /* PuppetConfigurer.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E19B3411B7370A200420E15 /* PuppetConfigurer.m */; };
+		7E19B3461B73710300420E15 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7E19B3441B73710300420E15 /* InfoPlist.strings */; };
+		7E19B3481B73711C00420E15 /* InstallerSections.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7E19B3471B73711C00420E15 /* InstallerSections.plist */; };
+		7E19B34B1B73712B00420E15 /* puppet_agent_installer_pluginPane.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E19B34A1B73712B00420E15 /* puppet_agent_installer_pluginPane.m */; };
+		7EE1E53F1B7388E50033AC5F /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7EE1E5361B7373570033AC5F /* Localizable.strings */; };
+		7EE1E5441B7395EE0033AC5F /* puppet_agent_installer_plugin.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7EE1E5431B7395EE0033AC5F /* puppet_agent_installer_plugin.xib */; };
+		A62D0D7F1886560200A878D5 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A62D0D7E1886560200A878D5 /* Cocoa.framework */; };
+		A62D0D811886560200A878D5 /* InstallerPlugins.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A62D0D801886560200A878D5 /* InstallerPlugins.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7E19B3411B7370A200420E15 /* PuppetConfigurer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PuppetConfigurer.m; path = "puppet-agent-installer-plugin/PuppetConfigurer.m"; sourceTree = SOURCE_ROOT; };
+		7E19B3431B7370B700420E15 /* PuppetConfigurer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PuppetConfigurer.h; path = "puppet-agent-installer-plugin/PuppetConfigurer.h"; sourceTree = SOURCE_ROOT; };
+		7E19B3451B73710300420E15 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = "puppet-agent-installer-plugin/en.lproj/InfoPlist.strings"; sourceTree = SOURCE_ROOT; };
+		7E19B3471B73711C00420E15 /* InstallerSections.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = InstallerSections.plist; path = "puppet-agent-installer-plugin/InstallerSections.plist"; sourceTree = SOURCE_ROOT; };
+		7E19B3491B73712B00420E15 /* puppet_agent_installer_pluginPane.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = puppet_agent_installer_pluginPane.h; path = "puppet-agent-installer-plugin/puppet_agent_installer_pluginPane.h"; sourceTree = SOURCE_ROOT; };
+		7E19B34A1B73712B00420E15 /* puppet_agent_installer_pluginPane.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = puppet_agent_installer_pluginPane.m; path = "puppet-agent-installer-plugin/puppet_agent_installer_pluginPane.m"; sourceTree = SOURCE_ROOT; };
+		7E19B34C1B73714400420E15 /* puppet-agent-installer-plugin-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "puppet-agent-installer-plugin-Prefix.pch"; path = "puppet-agent-installer-plugin/puppet-agent-installer-plugin-Prefix.pch"; sourceTree = SOURCE_ROOT; };
+		7EE1E5341B7373370033AC5F /* puppet-agent-installer-plugin-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "puppet-agent-installer-plugin-Info.plist"; sourceTree = "<group>"; };
+		7EE1E5371B7373570033AC5F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		7EE1E5431B7395EE0033AC5F /* puppet_agent_installer_plugin.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = puppet_agent_installer_plugin.xib; sourceTree = "<group>"; };
+		A62D0D7B1886560200A878D5 /* puppet-agent-installer-plugin.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "puppet-agent-installer-plugin.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A62D0D7E1886560200A878D5 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		A62D0D801886560200A878D5 /* InstallerPlugins.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = InstallerPlugins.framework; path = System/Library/Frameworks/InstallerPlugins.framework; sourceTree = SDKROOT; };
+		A62D0D831886560200A878D5 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		A62D0D841886560200A878D5 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		A62D0D851886560200A878D5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A62D0D8A1886560200A878D5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A62D0D781886560200A878D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A62D0D811886560200A878D5 /* InstallerPlugins.framework in Frameworks */,
+				A62D0D7F1886560200A878D5 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A62D0D721886560200A878D5 = {
+			isa = PBXGroup;
+			children = (
+				A62D0D861886560200A878D5 /* puppet-agent-installer-plugin */,
+				A62D0D7D1886560200A878D5 /* Frameworks */,
+				A62D0D7C1886560200A878D5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A62D0D7C1886560200A878D5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A62D0D7B1886560200A878D5 /* puppet-agent-installer-plugin.bundle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A62D0D7D1886560200A878D5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A62D0D7E1886560200A878D5 /* Cocoa.framework */,
+				A62D0D801886560200A878D5 /* InstallerPlugins.framework */,
+				A62D0D821886560200A878D5 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A62D0D821886560200A878D5 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A62D0D831886560200A878D5 /* AppKit.framework */,
+				A62D0D841886560200A878D5 /* CoreData.framework */,
+				A62D0D851886560200A878D5 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		A62D0D861886560200A878D5 /* puppet-agent-installer-plugin */ = {
+			isa = PBXGroup;
+			children = (
+				7EE1E5431B7395EE0033AC5F /* puppet_agent_installer_plugin.xib */,
+				7EE1E5361B7373570033AC5F /* Localizable.strings */,
+				7E19B3491B73712B00420E15 /* puppet_agent_installer_pluginPane.h */,
+				7E19B34A1B73712B00420E15 /* puppet_agent_installer_pluginPane.m */,
+				7E19B3431B7370B700420E15 /* PuppetConfigurer.h */,
+				7E19B3411B7370A200420E15 /* PuppetConfigurer.m */,
+				7E19B3441B73710300420E15 /* InfoPlist.strings */,
+				7E19B3471B73711C00420E15 /* InstallerSections.plist */,
+				A62D0D871886560200A878D5 /* Supporting Files */,
+			);
+			name = "puppet-agent-installer-plugin";
+			path = "puppet-enterprise-installer-plugin";
+			sourceTree = "<group>";
+		};
+		A62D0D871886560200A878D5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7E19B34C1B73714400420E15 /* puppet-agent-installer-plugin-Prefix.pch */,
+				7EE1E5341B7373370033AC5F /* puppet-agent-installer-plugin-Info.plist */,
+				A62D0D891886560200A878D5 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A62D0D7A1886560200A878D5 /* puppet-agent-installer-plugin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A62D0D9A1886560200A878D5 /* Build configuration list for PBXNativeTarget "puppet-agent-installer-plugin" */;
+			buildPhases = (
+				A62D0D771886560200A878D5 /* Sources */,
+				A62D0D781886560200A878D5 /* Frameworks */,
+				A62D0D791886560200A878D5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "puppet-agent-installer-plugin";
+			productName = "puppet-enterprise-installer-plugin";
+			productReference = A62D0D7B1886560200A878D5 /* puppet-agent-installer-plugin.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A62D0D731886560200A878D5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Puppet Labs";
+			};
+			buildConfigurationList = A62D0D761886560200A878D5 /* Build configuration list for PBXProject "puppet-agent-installer-plugin" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A62D0D721886560200A878D5;
+			productRefGroup = A62D0D7C1886560200A878D5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A62D0D7A1886560200A878D5 /* puppet-agent-installer-plugin */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A62D0D791886560200A878D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7EE1E53F1B7388E50033AC5F /* Localizable.strings in Resources */,
+				7E19B3461B73710300420E15 /* InfoPlist.strings in Resources */,
+				7E19B3481B73711C00420E15 /* InstallerSections.plist in Resources */,
+				7EE1E5441B7395EE0033AC5F /* puppet_agent_installer_plugin.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A62D0D771886560200A878D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E19B3421B7370A200420E15 /* PuppetConfigurer.m in Sources */,
+				7E19B34B1B73712B00420E15 /* puppet_agent_installer_pluginPane.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7E19B3441B73710300420E15 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7E19B3451B73710300420E15 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		7EE1E5361B7373570033AC5F /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7EE1E5371B7373570033AC5F /* en */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		A62D0D891886560200A878D5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A62D0D8A1886560200A878D5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A62D0D981886560200A878D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		A62D0D991886560200A878D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		A62D0D9B1886560200A878D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "puppet-agent-installer-plugin/puppet-agent-installer-plugin-Prefix.pch";
+				INFOPLIST_FILE = "puppet-agent-installer-plugin/puppet-agent-installer-plugin-Info.plist";
+				INSTALL_PATH = "$(HOME)/Library/Bundles";
+				PRODUCT_NAME = "puppet-agent-installer-plugin";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		A62D0D9C1886560200A878D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "puppet-agent-installer-plugin/puppet-agent-installer-plugin-Prefix.pch";
+				INFOPLIST_FILE = "puppet-agent-installer-plugin/puppet-agent-installer-plugin-Info.plist";
+				INSTALL_PATH = "$(HOME)/Library/Bundles";
+				PRODUCT_NAME = "puppet-agent-installer-plugin";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A62D0D761886560200A878D5 /* Build configuration list for PBXProject "puppet-agent-installer-plugin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A62D0D981886560200A878D5 /* Debug */,
+				A62D0D991886560200A878D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A62D0D9A1886560200A878D5 /* Build configuration list for PBXNativeTarget "puppet-agent-installer-plugin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A62D0D9B1886560200A878D5 /* Debug */,
+				A62D0D9C1886560200A878D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A62D0D731886560200A878D5 /* Project object */;
+}
