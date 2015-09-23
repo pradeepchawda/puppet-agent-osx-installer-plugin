@@ -8,11 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		7E19B3421B7370A200420E15 /* PuppetConfigurer.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E19B3411B7370A200420E15 /* PuppetConfigurer.m */; };
-		7E19B3461B73710300420E15 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7E19B3441B73710300420E15 /* InfoPlist.strings */; };
-		7E19B3481B73711C00420E15 /* InstallerSections.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7E19B3471B73711C00420E15 /* InstallerSections.plist */; };
 		7E19B34B1B73712B00420E15 /* puppet_agent_installer_pluginPane.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E19B34A1B73712B00420E15 /* puppet_agent_installer_pluginPane.m */; };
-		7EE1E53F1B7388E50033AC5F /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7EE1E5361B7373570033AC5F /* Localizable.strings */; };
-		7EE1E5441B7395EE0033AC5F /* puppet_agent_installer_plugin.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7EE1E5431B7395EE0033AC5F /* puppet_agent_installer_plugin.xib */; };
+		7EF4C1911BB2C92600177AC1 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7EF4C18F1BB2C92600177AC1 /* Localizable.strings */; };
+		7EF4C1941BB2C93F00177AC1 /* puppet_agent_installer_plugin.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7EF4C1921BB2C93F00177AC1 /* puppet_agent_installer_plugin.xib */; };
+		7EF4C1991BB2C99700177AC1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7EF4C1971BB2C99700177AC1 /* InfoPlist.strings */; };
+		7EF4C19A1BB2ECD600177AC1 /* InstallerSections.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7E19B3471B73711C00420E15 /* InstallerSections.plist */; };
 		A62D0D7F1886560200A878D5 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A62D0D7E1886560200A878D5 /* Cocoa.framework */; };
 		A62D0D811886560200A878D5 /* InstallerPlugins.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A62D0D801886560200A878D5 /* InstallerPlugins.framework */; };
 /* End PBXBuildFile section */
@@ -20,21 +20,20 @@
 /* Begin PBXFileReference section */
 		7E19B3411B7370A200420E15 /* PuppetConfigurer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PuppetConfigurer.m; path = "puppet-agent-installer-plugin/PuppetConfigurer.m"; sourceTree = SOURCE_ROOT; };
 		7E19B3431B7370B700420E15 /* PuppetConfigurer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PuppetConfigurer.h; path = "puppet-agent-installer-plugin/PuppetConfigurer.h"; sourceTree = SOURCE_ROOT; };
-		7E19B3451B73710300420E15 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = "puppet-agent-installer-plugin/en.lproj/InfoPlist.strings"; sourceTree = SOURCE_ROOT; };
 		7E19B3471B73711C00420E15 /* InstallerSections.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = InstallerSections.plist; path = "puppet-agent-installer-plugin/InstallerSections.plist"; sourceTree = SOURCE_ROOT; };
 		7E19B3491B73712B00420E15 /* puppet_agent_installer_pluginPane.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = puppet_agent_installer_pluginPane.h; path = "puppet-agent-installer-plugin/puppet_agent_installer_pluginPane.h"; sourceTree = SOURCE_ROOT; };
 		7E19B34A1B73712B00420E15 /* puppet_agent_installer_pluginPane.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = puppet_agent_installer_pluginPane.m; path = "puppet-agent-installer-plugin/puppet_agent_installer_pluginPane.m"; sourceTree = SOURCE_ROOT; };
 		7E19B34C1B73714400420E15 /* puppet-agent-installer-plugin-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "puppet-agent-installer-plugin-Prefix.pch"; path = "puppet-agent-installer-plugin/puppet-agent-installer-plugin-Prefix.pch"; sourceTree = SOURCE_ROOT; };
-		7EE1E5341B7373370033AC5F /* puppet-agent-installer-plugin-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "puppet-agent-installer-plugin-Info.plist"; sourceTree = "<group>"; };
-		7EE1E5371B7373570033AC5F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
-		7EE1E5431B7395EE0033AC5F /* puppet_agent_installer_plugin.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = puppet_agent_installer_plugin.xib; sourceTree = "<group>"; };
+		7EF4C1901BB2C92600177AC1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		7EF4C1931BB2C93F00177AC1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/puppet_agent_installer_plugin.xib; sourceTree = "<group>"; };
+		7EF4C1951BB2C95400177AC1 /* puppet-agent-installer-plugin-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "puppet-agent-installer-plugin-Info.plist"; sourceTree = "<group>"; };
+		7EF4C1981BB2C99700177AC1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		A62D0D7B1886560200A878D5 /* puppet-agent-installer-plugin.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "puppet-agent-installer-plugin.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A62D0D7E1886560200A878D5 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		A62D0D801886560200A878D5 /* InstallerPlugins.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = InstallerPlugins.framework; path = System/Library/Frameworks/InstallerPlugins.framework; sourceTree = SDKROOT; };
 		A62D0D831886560200A878D5 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		A62D0D841886560200A878D5 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		A62D0D851886560200A878D5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		A62D0D8A1886560200A878D5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,26 +89,24 @@
 		A62D0D861886560200A878D5 /* puppet-agent-installer-plugin */ = {
 			isa = PBXGroup;
 			children = (
-				7EE1E5431B7395EE0033AC5F /* puppet_agent_installer_plugin.xib */,
-				7EE1E5361B7373570033AC5F /* Localizable.strings */,
+				7EF4C1921BB2C93F00177AC1 /* puppet_agent_installer_plugin.xib */,
+				7EF4C18F1BB2C92600177AC1 /* Localizable.strings */,
 				7E19B3491B73712B00420E15 /* puppet_agent_installer_pluginPane.h */,
 				7E19B34A1B73712B00420E15 /* puppet_agent_installer_pluginPane.m */,
 				7E19B3431B7370B700420E15 /* PuppetConfigurer.h */,
 				7E19B3411B7370A200420E15 /* PuppetConfigurer.m */,
-				7E19B3441B73710300420E15 /* InfoPlist.strings */,
 				7E19B3471B73711C00420E15 /* InstallerSections.plist */,
 				A62D0D871886560200A878D5 /* Supporting Files */,
 			);
-			name = "puppet-agent-installer-plugin";
-			path = "puppet-enterprise-installer-plugin";
+			path = "puppet-agent-installer-plugin";
 			sourceTree = "<group>";
 		};
 		A62D0D871886560200A878D5 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				7EF4C1971BB2C99700177AC1 /* InfoPlist.strings */,
+				7EF4C1951BB2C95400177AC1 /* puppet-agent-installer-plugin-Info.plist */,
 				7E19B34C1B73714400420E15 /* puppet-agent-installer-plugin-Prefix.pch */,
-				7EE1E5341B7373370033AC5F /* puppet-agent-installer-plugin-Info.plist */,
-				A62D0D891886560200A878D5 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -166,10 +163,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7EE1E53F1B7388E50033AC5F /* Localizable.strings in Resources */,
-				7E19B3461B73710300420E15 /* InfoPlist.strings in Resources */,
-				7E19B3481B73711C00420E15 /* InstallerSections.plist in Resources */,
-				7EE1E5441B7395EE0033AC5F /* puppet_agent_installer_plugin.xib in Resources */,
+				7EF4C19A1BB2ECD600177AC1 /* InstallerSections.plist in Resources */,
+				7EF4C1911BB2C92600177AC1 /* Localizable.strings in Resources */,
+				7EF4C1991BB2C99700177AC1 /* InfoPlist.strings in Resources */,
+				7EF4C1941BB2C93F00177AC1 /* puppet_agent_installer_plugin.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -188,26 +185,26 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		7E19B3441B73710300420E15 /* InfoPlist.strings */ = {
+		7EF4C18F1BB2C92600177AC1 /* Localizable.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				7E19B3451B73710300420E15 /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		7EE1E5361B7373570033AC5F /* Localizable.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				7EE1E5371B7373570033AC5F /* en */,
+				7EF4C1901BB2C92600177AC1 /* en */,
 			);
 			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
-		A62D0D891886560200A878D5 /* InfoPlist.strings */ = {
+		7EF4C1921BB2C93F00177AC1 /* puppet_agent_installer_plugin.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				A62D0D8A1886560200A878D5 /* en */,
+				7EF4C1931BB2C93F00177AC1 /* Base */,
+			);
+			name = puppet_agent_installer_plugin.xib;
+			sourceTree = "<group>";
+		};
+		7EF4C1971BB2C99700177AC1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7EF4C1981BB2C99700177AC1 /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
